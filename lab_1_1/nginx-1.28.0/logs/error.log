@@ -194,3 +194,44 @@ ginx-1.28.0\html/50x.html" failed (123: The filename, directory name, or volume 
 2025/11/09 17:52:47 [notice] 23184#22032: signal process started
 2025/11/09 17:52:47 [warn] 26372#16564: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
 2025/11/09 17:52:47 [warn] 26372#16564: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:43:49 [error] 26372#10852: *72 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/qwerty/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET /qwerty/ HTTP/1.1", host: "first-site.test"
+2025/11/09 19:43:53 [error] 26372#10852: *72 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/qwerty/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET /qwerty/ HTTP/1.1", host: "first-site.test"
+2025/11/09 19:43:56 [error] 26372#10852: *72 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/qwerty/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET /qwerty/ HTTP/1.1", host: "first-site.test"
+2025/11/09 19:44:13 [error] 26372#10852: *73 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /qwe HTTP/1.1", host: "localhost"
+2025/11/09 19:44:17 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:44:19 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:44:20 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:44:21 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:54:37 [error] 26372#10852: *75 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:57:33 [warn] 17824#3144: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:33 [warn] 17824#3144: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:33 [notice] 17824#3144: signal process started
+2025/11/09 19:57:33 [warn] 18416#24944: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:33 [warn] 18416#24944: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:35 [warn] 26280#31968: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:35 [warn] 26280#31968: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [warn] 16772#29840: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [warn] 16772#29840: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [notice] 16772#29840: signal process started
+2025/11/09 20:05:25 [warn] 14560#14420: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [warn] 14560#14420: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:27 [warn] 25856#23740: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:27 [warn] 25856#23740: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [warn] 20532#14460: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [warn] 20532#14460: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [notice] 20532#14460: signal process started
+2025/11/09 20:06:49 [warn] 17864#18796: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [warn] 17864#18796: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:51 [warn] 24264#15708: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:51 [warn] 24264#15708: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:54 [error] 17864#32660: *85 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one" is forbidden, client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 20:06:56 [error] 17864#32660: *85 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one" is forbidden, client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 20:06:56 [error] 17864#32660: *85 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one" is forbidden, client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 20:08:11 [warn] 25324#26100: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:08:11 [notice] 25324#26100: signal process started
+2025/11/09 20:08:11 [warn] 3420#10272: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:08:12 [warn] 21420#32048: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:08:21 [error] 3420#13656: *91 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_two" is forbidden, client: 127.0.0.1, server: second-site.test, request: "GET / HTTP/1.1", host: "second-site.test"
+2025/11/09 20:08:22 [error] 3420#13656: *91 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_two" is forbidden, client: 127.0.0.1, server: second-site.test, request: "GET / HTTP/1.1", host: "second-site.test"
+2025/11/09 20:10:23 [notice] 17036#25868: signal process started
+2025/11/09 20:13:29 [notice] 7076#24408: signal process started
