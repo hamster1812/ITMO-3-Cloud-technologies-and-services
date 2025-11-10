@@ -1,0 +1,241 @@
+2025/09/18 19:29:49 [error] 21412#31100: *1 CreateFile() "G:\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/09/18 20:36:58 [emerg] 9688#20380: invalid number of arguments in "include" directive in G:\nginx-1.28.0/conf/nginx.conf:20
+2025/09/18 20:38:36 [emerg] 15620#11024: invalid number of arguments in "include" directive in G:\nginx-1.28.0/conf/nginx.conf:20
+2025/09/18 20:38:44 [emerg] 11808#10520: invalid number of arguments in "include" directive in G:\nginx-1.28.0/conf/nginx.conf:20
+2025/09/18 20:38:50 [error] 18972#4852: *3 CreateFile() "G:\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "http://first-site.test/"
+2025/09/18 20:41:08 [emerg] 3100#20160: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/09/18 20:45:18 [emerg] 9744#11376: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/09/18 21:07:13 [emerg] 3084#11252: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/09/18 21:09:25 [emerg] 14324#3100: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/09/18 21:28:41 [notice] 2636#18916: signal process started
+2025/09/18 21:28:45 [notice] 11624#2840: signal process started
+2025/09/18 21:28:45 [error] 11624#2840: CreateFile() "G:\nginx-1.28.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/18 21:29:06 [notice] 15612#16028: signal process started
+2025/09/18 21:29:06 [error] 15612#16028: CreateFile() "G:\nginx-1.28.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/09/18 21:38:32 [emerg] 16204#6308: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:45
+2025/09/18 21:39:23 [emerg] 18684#19472: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:45
+2025/09/18 21:40:31 [notice] 4624#20392: signal process started
+2025/09/18 21:42:13 [emerg] 10848#10900: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:45
+2025/09/18 21:42:40 [emerg] 3196#2468: directive "include" is not terminated by ";" in G:\nginx-1.28.0/conf/nginx.conf:45
+2025/09/18 21:46:33 [error] 7720#7952: *4 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_one/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "http://second-site.test/"
+2025/09/18 21:47:26 [notice] 19104#11372: signal process started
+2025/09/18 21:47:56 [notice] 16204#10928: signal process started
+2025/09/18 21:54:55 [notice] 19192#14924: signal process started
+2025/09/18 21:55:16 [notice] 18716#16248: signal process started
+2025/09/18 21:56:39 [notice] 3276#21256: signal process started
+2025/09/18 21:57:36 [warn] 18200#7120: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/09/18 21:57:36 [notice] 18200#7120: signal process started
+2025/09/18 21:57:36 [warn] 9744#6084: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/09/18 21:59:10 [notice] 10304#9972: signal process started
+2025/09/18 21:59:42 [emerg] 8704#14688: cannot load certificate "G:/lab_1_1/ssl_certs/certificate.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(G:/lab_1_1/ssl_certs/certificate.crt, r) error:10000080:BIO routines::no such file)
+2025/09/18 22:01:18 [emerg] 5216#6552: cannot load certificate "G:\nginx-1.28.0/conf/../../ssl_certs/certificate.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(G:\nginx-1.28.0/conf/../../ssl_certs/certificate.crt, r) error:10000080:BIO routines::no such file)
+2025/09/18 22:02:14 [emerg] 7660#576: cannot load certificate "G:\nginx-1.28.0/conf/ssl_certs/certificate.crt": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(G:\nginx-1.28.0/conf/ssl_certs/certificate.crt, r) error:10000080:BIO routines::no such file)
+2025/09/18 22:15:33 [warn] 18960#10528: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/09/18 22:15:33 [notice] 18960#10528: signal process started
+2025/09/18 22:15:33 [warn] 14868#4784: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/09/18 22:18:50 [notice] 20228#12688: signal process started
+2025/09/18 22:20:41 [notice] 9212#10496: signal process started
+2025/09/18 22:26:44 [notice] 2528#3168: signal process started
+2025/09/18 22:27:50 [notice] 2512#9124: signal process started
+2025/09/18 22:32:51 [notice] 4580#10024: signal process started
+2025/09/18 22:33:10 [notice] 8532#3408: signal process started
+2025/09/18 22:36:34 [error] 8304#19276: *3 CreateFile() "G:\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/09/19 13:09:13 [notice] 23208#4160: signal process started
+2025/09/19 13:23:10 [error] 18916#18536: *5 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_two/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "http://first-site.test/"
+2025/09/19 13:28:12 [error] 18916#18536: *7 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_two/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: second-site.test, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "http://second-site.test/"
+2025/09/19 13:28:55 [notice] 16968#7648: signal process started
+2025/09/19 13:31:59 [notice] 23308#5640: signal process started
+2025/09/19 13:32:48 [notice] 19440#5160: signal process started
+2025/09/19 13:42:21 [error] 24344#24272: *20 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "https://first-site.test/"
+2025/09/19 13:42:21 [error] 24344#24272: *21 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "https://second-site.test/"
+2025/09/19 13:42:22 [error] 24344#24272: *22 CreateFile() "G:\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/09/19 13:44:00 [error] 24344#24272: *24 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_one/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "http://first-site.test/"
+2025/09/19 13:44:10 [error] 24344#24272: *25 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_two/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: second-site.test, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "http://second-site.test/"
+2025/09/19 13:48:32 [notice] 19620#4432: signal process started
+2025/09/19 13:54:13 [notice] 18768#20060: signal process started
+2025/09/19 14:01:28 [notice] 18972#20528: signal process started
+2025/09/19 14:02:35 [emerg] 17968#4524: directive "include" is not terminated by ";" in C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/nginx/nginx.conf:20
+2025/09/19 14:02:55 [emerg] 20340#5780: CreateFile() "G:\nginx-1.28.0/conf/first.conf" failed (2: The system cannot find the file specified) in C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/nginx/nginx.conf:18
+2025/09/19 14:12:51 [emerg] 21424#18800: CreateFile() "G:\nginx-1.28.0/conf/../first.conf" failed (2: The system cannot find the file specified) in C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/nginx/nginx.conf:18
+2025/09/19 15:37:02 [emerg] 15916#20100: invalid number of arguments in "root" directive in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/09/19 15:41:48 [emerg] 23420#6308: invalid number of arguments in "root" directive in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:31:11 [emerg] 26436#24476: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:36:23 [emerg] 22820#30968: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:37:47 [emerg] 28752#23748: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:40:56 [emerg] 16396#18052: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:41:29 [emerg] 21756#8972: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:43:25 [emerg] 17916#16516: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:43:32 [emerg] 17456#17596: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:49:42 [emerg] 22096#21340: CreateFile() "G:\nginx-1.28.0/conf/nginx/nginx.conf" failed (3: The system cannot find the path specified) in G:\nginx-1.28.0/conf/nginx.conf:37
+2025/11/09 15:52:54 [emerg] 4032#30652: CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/conf/for_sites/nginx.conf" failed (3: The system cannot find the path specified) in C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/conf/nginx.conf:35
+2025/11/09 15:53:03 [emerg] 23056#7136: CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/conf/for_sites/nginx.conf" failed (3: The system cannot find the path specified) in C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/conf/nginx.conf:35
+2025/11/09 15:54:08 [emerg] 30628#3568: CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/conf/for_sites/nginx.conf" failed (3: The system cannot find the path specified) in C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/conf/nginx.conf:35
+2025/11/09 16:03:27 [notice] 16400#10128: signal process started
+2025/11/09 16:03:27 [error] 16400#10128: OpenEvent("Global\ngx_reload_15164") failed (2: The system cannot find the file specified)
+2025/11/09 16:06:58 [notice] 24772#17356: signal process started
+2025/11/09 16:06:58 [error] 24772#17356: OpenEvent("Global\ngx_reload_15164") failed (2: The system cannot find the file specified)
+2025/11/09 16:10:51 [crit] 14880#12196: *1 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:10:51 [error] 14880#12196: *1 CreateFile() "C:/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:10:51 [crit] 14880#12196: *2 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/11/09 16:10:51 [error] 14880#12196: *2 CreateFile() "C:/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/11/09 16:11:41 [crit] 14880#12196: *3 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:11:41 [error] 14880#12196: *3 CreateFile() "C:/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:11:42 [crit] 14880#12196: *4 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:11:42 [error] 14880#12196: *4 CreateFile() "C:/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:11:54 [notice] 27772#12464: signal process started
+2025/11/09 16:11:58 [crit] 14880#12196: *5 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:11:58 [error] 14880#12196: *5 CreateFile() "C:/html/50x.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:00 [crit] 17088#17468: *6 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:00 [crit] 17088#17468: *6 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:02 [crit] 17088#17468: *7 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:02 [crit] 17088#17468: *7 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:03 [crit] 17088#17468: *8 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:03 [crit] 17088#17468: *8 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:04 [crit] 17088#17468: *9 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:04 [crit] 17088#17468: *9 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:12:59 [error] 17088#17468: *10 "C:/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 16:12:59 [error] 17088#17468: *10 CreateFile() "C:/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "https://first-site.test/"
+2025/11/09 16:14:37 [notice] 11516#12204: signal process started
+2025/11/09 16:15:07 [crit] 11284#14452: *11 GetFileAttributesEx() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:15:07 [crit] 11284#14452: *11 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1
+ginx-1.28.0\html/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 16:18:57 [notice] 7732#3280: signal process started
+2025/11/09 16:19:06 [error] 3376#13804: *16 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "https://second-site.test/"
+2025/11/09 16:19:26 [notice] 19852#31268: signal process started
+2025/11/09 16:20:13 [notice] 12108#31332: signal process started
+2025/11/09 16:23:32 [notice] 20996#18744: signal process started
+2025/11/09 16:27:25 [notice] 29684#24640: signal process started
+2025/11/09 16:33:13 [error] 15356#7984: *30 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/11/09 16:34:52 [error] 15356#7984: *32 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "https://first-site.test/"
+2025/11/09 16:35:49 [error] 15356#7984: *33 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "https://second-site.test/"
+2025/11/09 16:37:33 [error] 15356#7984: *34 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "https://first-site.test/"
+2025/11/09 16:38:46 [error] 15356#7984: *35 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_one/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "http://first-site.test/"
+2025/11/09 16:38:55 [error] 15356#7984: *36 CreateFile() "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_two/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: second-site.test, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "http://second-site.test/"
+2025/11/09 16:49:29 [notice] 25040#15956: signal process started
+2025/11/09 16:49:44 [error] 25412#28336: *37 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/11/09 16:49:54 [error] 25412#28336: *39 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/../../sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 16:49:56 [error] 25412#28336: *39 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/../../sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 16:53:57 [notice] 22276#15808: signal process started
+2025/11/09 16:54:58 [error] 23360#31556: *40 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/../../sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 16:54:59 [error] 23360#31556: *40 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/../../sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 16:55:08 [notice] 18032#16388: signal process started
+2025/11/09 16:55:09 [notice] 13812#10852: signal process started
+2025/11/09 16:55:15 [error] 31684#26356: *41 "C:/../../sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 16:55:16 [error] 31684#26356: *41 "C:/../../sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 17:01:32 [notice] 5460#14460: signal process started
+2025/11/09 17:02:33 [notice] 28696#22004: signal process started
+2025/11/09 17:04:28 [notice] 8496#11340: signal process started
+2025/11/09 17:04:38 [error] 20100#11392: *48 "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 17:04:40 [error] 20100#11392: *49 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "https://second-site.test/"
+2025/11/09 17:04:42 [error] 20100#11392: *48 "C:/Users/Second/PycharmProjects/ITMO-3-Cloud-technologies-and-services/lab_1_1/sites/project_one/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 17:05:27 [notice] 8880#9796: signal process started
+2025/11/09 17:15:52 [warn] 20136#28460: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:15:52 [notice] 20136#28460: signal process started
+2025/11/09 17:15:52 [warn] 17828#20584: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:16:21 [warn] 8108#25136: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:17:35 [warn] 8188#11132: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:17:35 [notice] 8188#11132: signal process started
+2025/11/09 17:17:35 [warn] 24760#12684: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:19:14 [warn] 22372#20900: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:19:14 [warn] 22372#20900: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:19:14 [notice] 22372#20900: signal process started
+2025/11/09 17:19:14 [warn] 30496#30596: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:19:14 [warn] 30496#30596: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:19:24 [warn] 22996#25040: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:19:24 [warn] 22996#25040: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:20:01 [notice] 20264#6856: signal process started
+2025/11/09 17:50:45 [warn] 26652#18396: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:50:45 [warn] 26652#18396: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:50:47 [warn] 27056#30404: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:50:47 [warn] 27056#30404: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:50:47 [notice] 27056#30404: signal process started
+2025/11/09 17:50:47 [warn] 1820#16972: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:50:47 [warn] 1820#16972: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:01 [error] 1820#3272: *62 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:51:13 [warn] 7488#15880: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:13 [warn] 7488#15880: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:13 [notice] 7488#15880: signal process started
+2025/11/09 17:51:13 [warn] 16108#13112: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:13 [warn] 16108#13112: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:15 [error] 1820#3272: *63 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:51:59 [warn] 8920#26932: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:59 [warn] 8920#26932: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:59 [notice] 8920#26932: signal process started
+2025/11/09 17:51:59 [warn] 12996#9872: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:51:59 [warn] 12996#9872: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:06 [error] 12996#14976: *66 "C:/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:52:07 [error] 12996#14976: *66 "C:/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:52:08 [error] 12996#14976: *66 "C:/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:52:08 [error] 12996#14976: *66 "C:/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:52:24 [warn] 16144#14700: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:24 [warn] 16144#14700: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:24 [notice] 16144#14700: signal process started
+2025/11/09 17:52:24 [warn] 9452#15324: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:24 [warn] 9452#15324: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:27 [warn] 9976#22376: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:27 [warn] 9976#22376: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:33 [error] 12996#14976: *67 "C:/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/11/09 17:52:47 [warn] 23184#22032: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:47 [warn] 23184#22032: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:47 [notice] 23184#22032: signal process started
+2025/11/09 17:52:47 [warn] 26372#16564: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 17:52:47 [warn] 26372#16564: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:43:49 [error] 26372#10852: *72 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/qwerty/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET /qwerty/ HTTP/1.1", host: "first-site.test"
+2025/11/09 19:43:53 [error] 26372#10852: *72 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/qwerty/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET /qwerty/ HTTP/1.1", host: "first-site.test"
+2025/11/09 19:43:56 [error] 26372#10852: *72 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/qwerty/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: first-site.test, request: "GET /qwerty/ HTTP/1.1", host: "first-site.test"
+2025/11/09 19:44:13 [error] 26372#10852: *73 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /qwe HTTP/1.1", host: "localhost"
+2025/11/09 19:44:17 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:44:19 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:44:20 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:44:21 [error] 26372#10852: *73 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:54:37 [error] 26372#10852: *75 "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/qwe/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /qwe/ HTTP/1.1", host: "localhost"
+2025/11/09 19:57:33 [warn] 17824#3144: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:33 [warn] 17824#3144: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:33 [notice] 17824#3144: signal process started
+2025/11/09 19:57:33 [warn] 18416#24944: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:33 [warn] 18416#24944: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:35 [warn] 26280#31968: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 19:57:35 [warn] 26280#31968: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [warn] 16772#29840: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [warn] 16772#29840: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [notice] 16772#29840: signal process started
+2025/11/09 20:05:25 [warn] 14560#14420: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:25 [warn] 14560#14420: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:27 [warn] 25856#23740: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:05:27 [warn] 25856#23740: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [warn] 20532#14460: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [warn] 20532#14460: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [notice] 20532#14460: signal process started
+2025/11/09 20:06:49 [warn] 17864#18796: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:49 [warn] 17864#18796: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:51 [warn] 24264#15708: conflicting server name "first-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:51 [warn] 24264#15708: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:06:54 [error] 17864#32660: *85 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one" is forbidden, client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 20:06:56 [error] 17864#32660: *85 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one" is forbidden, client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 20:06:56 [error] 17864#32660: *85 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one" is forbidden, client: 127.0.0.1, server: first-site.test, request: "GET / HTTP/1.1", host: "first-site.test"
+2025/11/09 20:08:11 [warn] 25324#26100: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:08:11 [notice] 25324#26100: signal process started
+2025/11/09 20:08:11 [warn] 3420#10272: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:08:12 [warn] 21420#32048: conflicting server name "second-site.test" on 0.0.0.0:80, ignored
+2025/11/09 20:08:21 [error] 3420#13656: *91 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_two" is forbidden, client: 127.0.0.1, server: second-site.test, request: "GET / HTTP/1.1", host: "second-site.test"
+2025/11/09 20:08:22 [error] 3420#13656: *91 directory index of "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_two" is forbidden, client: 127.0.0.1, server: second-site.test, request: "GET / HTTP/1.1", host: "second-site.test"
+2025/11/09 20:10:23 [notice] 17036#25868: signal process started
+2025/11/09 20:13:29 [notice] 7076#24408: signal process started
+2025/11/11 01:50:40 [error] 12972#13032: *1 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/11/11 01:50:47 [error] 12972#13032: *4 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_one/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: first-site.test, request: "GET /favicon.ico HTTP/1.1", host: "first-site.test", referrer: "https://first-site.test/"
+2025/11/11 01:54:18 [error] 12972#13032: *6 CreateFile() "C:\Users\Second\PycharmProjects\ITMO-3-Cloud-technologies-and-services\lab_1_1\nginx-1.28.0/html/project_two/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: second-site.test, request: "GET /favicon.ico HTTP/1.1", host: "second-site.test", referrer: "https://second-site.test/"
+2025/11/11 02:07:05 [notice] 21908#11768: signal process started
