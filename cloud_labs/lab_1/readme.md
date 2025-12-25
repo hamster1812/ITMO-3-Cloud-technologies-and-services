@@ -48,20 +48,20 @@
 ![img.png](img/table_before.png)
 
 #### Немного про сервисы
-- Amazon CloudWatch (Monitoring & Logging) - сервис для мониторинга и логирования различных данных в AWS.
-- AWS Budgets (Management Tools) - сервис для отслеживания и управления бюджетом.
-- AWS Device Farm (Mobile Services) - сервис для тестирования мобильных приложений на различных устройствах.
-- AWS Lambda (Compute) - сервис для запуска кода без управления серверами.
-- Elastic MapReduce (EMR) (Analytics) - сервис для обработки больших данных с помощью фреймворков.
-- Amazon EC2 (Compute) - сервис для запуска виртуальных серверов.
-- Amazon WorkMail (Enterprise Applications) - сервис для управления корпоративной почтой.
-- Amazon WorkSpaces (Enterprise Applications) - сервис виртуальных рабочих столов.
-- Amazon for Business (Enterprise Applications) - сервис для использования устройств и пользователей в бизнес-среде.
-- Amazon Detective (Security and Identity) - сервис для анализа и расследования инцидентов безопасности.
-- Amazon Inspector (Security and Identity) - сервис для автоматической оценки безопасности.
-- Amazon Macie (Security and Identity) - сервис для классификации и защиты данных.
-- Amazon Pinpoint (Application Services) - сервис для управления маркетинговыми кампаниями и уведомлениями.
-- Amazon Mobile Analytics (Analytics) - сервис для анализа мобильных приложений.
+- Amazon CloudWatch - сервис для мониторинга и логирования различных данных в AWS.
+- AWS Budgets - сервис для отслеживания и управления бюджетом.
+- AWS Device Farm - сервис для тестирования мобильных приложений на различных устройствах.
+- AWS Lambda - сервис для запуска кода без управления серверами.
+- Elastic MapReduce - сервис для обработки больших данных с помощью фреймворков.
+- Amazon EC2 - сервис для запуска виртуальных серверов.
+- Amazon WorkMail - сервис для управления корпоративной почтой.
+- Amazon WorkSpaces - сервис виртуальных рабочих столов.
+- Amazon for Business - сервис для использования устройств и пользователей в бизнес-среде.
+- Amazon Detective - сервис для анализа и расследования инцидентов безопасности.
+- Amazon Inspector - сервис для автоматической оценки безопасности.
+- Amazon Macie - сервис для классификации и защиты данных.
+- Amazon Pinpoint - сервис для управления маркетинговыми кампаниями и уведомлениями.
+- Amazon Mobile Analytics - сервис для анализа мобильных приложений.
 
 #### Итоговая таблица
 ![table_after.png](img/table_after.png)
