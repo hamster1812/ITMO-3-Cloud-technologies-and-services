@@ -1,0 +1,48 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Meter Category;Meter Sub-Category;Meter Name;Consumed Service
+;;;;;Analysis Services;Tabular;Standard S%;Microsoft.AnalysisServices
+;;;;;Analysis Services;Tabular;Basic B%;Microsoft.AnalysisServices
+;;;;;Analysis Services;Tabular;Developer (Hours);Microsoft.AnalysisServices
+;;;;;Azure Analysis Services;Basic;B%;Microsoft.AnalysisServices
+;;;;;Azure Analysis Services;Developer;Developer;Microsoft.AnalysisServices
+;;;;;Azure Analysis Services;Standard;S%;Microsoft.AnalysisServices
+;;;;;Azure Database for PostgreSQL;;;Microsoft.DBforMyQL
+;;;;;Azure Database for PostgreSQL;;;Microsoft.DBforPostgreSQL
+;;;;;Azure Databricks;;%Data Analytics%;Microsoft.Databricks
+;;;;;Azure Databricks;;%Data Engineering%;Microsoft.Databricks
+;;;;;Azure Monitor;Notifications;Webhook;microsoft.insights
+;;;;;Azure Monitor;Notifications;Email;microsoft.insights
+;;;;;Virtual Machines;;;Microsoft.Batch
+;;;;;Virtual Machines;A Series Basic%;;%Compute
+;;;;;Virtual Machines;A%;;%Compute
+;;;;;Virtual Machines;B%;;%Compute
+;;;;;Virtual Machines;D%;D1/%;%Compute
+;;;;;Virtual Machines;D%;D1 %;%Compute
+;;;;;Virtual Machines;D%;D1%;%Compute
+;;;;;Virtual Machines;D%;D%;%Compute
+;;;;;Virtual Machines;E%;;%Compute
+;;;;;Virtual Machines;F%;;%Compute
+;;;;;Virtual Machines;Standard_F4 VM (Windows);Compute Hours;%Compute
+;;;;;Virtual Machines;G%;;%Compute
+;;;;;Virtual Machines;H%;;%Compute
+;;;;;Virtual Machines;L%;;%Compute
+;;;;;Virtual Machines;M%;;%Compute
+;;;;;Virtual Machines;N%;;%Compute
+;;;;;Virtual Machines;S%;;%Compute
+;;;;;Virtual Machines;;;Microsoft.MachineLearningServices
+;;;;;Virtual Network;;;
+;;;;;Load Balancer;;;Microsoft.Batch
+;;;;;Load Balancer;;;Microsoft.MachineLearningServices
+;;;;;Load Balancer;;;Microsoft.Network
+;;;;;SignalR;;;Microsoft.SignalRService
+;;;;;Event Grid;;Operations;
+;;;;;Windows Azure - All Services;All;Data Transfer Out%;Microsoft.Storage
+;;;;;Media Services;;;microsoft.media
+;;;;;IoT Hub;;;Microsoft.Devices
+;;;;;SQL Data Warehouse;%Storage;;Microsoft.Sql
+;;;;;Storage;;;Microsoft.Sql
+;;;;;Storage;;;microsoft._ackup
+;;;;;Storage;;;Microsoft.RecoveryServices
+;;;;;Storage;;;%_torage%
+;;;;;Storage;;;Microsoft.Compute
+;;;;;Storage;;;Microsoft.MachineLearningServices
+;;;;;Storage;;;Microsoft.Batch

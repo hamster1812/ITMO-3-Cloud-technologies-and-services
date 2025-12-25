@@ -1,0 +1,25 @@
+______ _____________:;;;;;;;;
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Networking;Networking;Amazon Api Gateway;Data Transfer;Data Transfer;AmazonApiGateway;%DataTransfer%;;
+Cloud Services;Application Services;Amazon Api Gateway;Additional Costs;Tax;AmazonApiGateway;;;Tax%
+Compute;Compute;Amazon Elastic Container Service for Kubernetes;Fargate;vCPU hours;AmazonEKS;%Fargate-vCPU-Hours%;;
+Database;Database;Amazon RDS;[product/databaseEngine];Aurora Backup Storage;AmazonRDS;%Aurora:BackupUsage;;
+Storage;Storage&Content Delivery;Amazon S3;Glacier;Glacier Staging Storage;AmazonS3;%TimedStorage-GlacierStaging;;
+Support;Support;AWS Support Business;Support Business;Support Fee;AWSSupportBusiness;;;
+;;;;;;;;
+_____ ______;;;;;;;;
+Cloud Services;Analytics;;;;;;;
+Cloud Services;Application Services;;;;;;;
+Cloud Services;Artificial Intelligence;;;;;;;
+Cloud Services;Blockchain;;;;;;;
+Compute;Compute;;;;;;;
+Database;Database;;;;;;;
+Cloud Services;Developer Tools;;;;;;;
+Cloud Services;Enterprise Applications;;;;;;;
+Cloud Services;Internet of Things;;;;;;;
+Cloud Services;Management Tools;;;;;;;
+Cloud Services;Mobile Services;;;;;;;
+Networking;Networking;;;;;;;
+Cloud Services;Security and Identity;;;;;;;
+Storage;Storage&Content Delivery;;;;;;;
+Support;Support;;;;;;;
